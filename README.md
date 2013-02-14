@@ -23,9 +23,8 @@ Steps
 
 1. working prototype: this is the first development step, aimed to produce a working plugin that allows the user to download a route with start and end points, display the route in QGIS and save it into a memory layer. No options available.
 2. Basic GUI: basic GUI to configure  and save the server URL and the line style, append/overwrite mode switch will also be available. 
-3. Reverse Geocoding: implementation of OSRM geocoding with data saved into a memory layer
-4. Full GUI: multiple OSRM server support, servers can be stored in the user preferencese, changed and retrieved, a default server can be set and changed in the options dialog. Full GUI support for all OSRM options (zoom etc.). Support for storage options other than a memory layer (SpatiaLite).
-5. Python API: complete support for all OSRM options through a fully documented Python library, this step is the foundation to add more interesting functions to this plugin. Batch geocoding and routing available via API (not in the plugin GUI). The plugin code will be rewritten as needed to use the new API, to also serve as an example about using the API itself.
+3. Full GUI: multiple OSRM server support, servers can be stored in the user preferencese, changed and retrieved, a default server can be set and changed in the options dialog. Full GUI support for all OSRM options (zoom etc.). Support for storage options other than a memory layer (SpatiaLite).
+4. Python API: complete support for all OSRM options through a fully documented Python library, this step is the foundation to add more interesting functions to this plugin. Batch geocoding and routing available via API (not in the plugin GUI). The plugin code will be rewritten as needed to use the new API, to also serve as an example about using the API itself.
 
 
 License
